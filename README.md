@@ -1,5 +1,5 @@
 # Crop_Corp
-Crop Corps predictive models \n
+Crop Corps predictive models
 
 Regresion Models: (Who is creating it) 
   Wheat price

@@ -5,7 +5,7 @@ Regresion Models: (Who is creating it)
 
   Wheat price  
   
-    Oil vs.   
+    Oil vs. (Amos)
     
     Precipitation vs. (Ewan)  
     

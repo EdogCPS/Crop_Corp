@@ -19,7 +19,7 @@ Regresion Models: (Who is creating it)
     
     Preciption vs.  (Nina)
     
-    Temperature vs.  
+    Temperature vs.  (Jane)
     
     Time vs.  
     

@@ -5,10 +5,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 data1 = pd.read_csv("Crop_Corp/US Corn Futures Historical Data (1).csv")
-#data2 = *INUPUT  PRECPITATION CSV*
+data2 =pd.read_csv("Crop_Corp/ChicagoPrecipitationMonthlyData2014-2024.csv")
 
-#x = 
-#x_1 =
+
+#x_1 =data1(
 #x_2 =
 #y =
 

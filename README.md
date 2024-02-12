@@ -17,9 +17,9 @@ Regresion Models: (Who is creating it)
   
     Oil vs. (Jacob)  
     
-    Preciption vs.  
+    Preciption vs.  (Nina)
     
-    Temperature vs.  
+    Temperature vs.  (Jane)
     
     Time vs.  
     

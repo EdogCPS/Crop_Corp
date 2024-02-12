@@ -30,6 +30,7 @@ plt.scatter(x_predict, prediction, c="blue")
 plt.xlabel("Dates (Monthly)")
 plt.ylabel("Prices of Corn Futures")
 plt.title("Monthly Prices of Corn Futures")
+plt.xticks(np.arange(2014, 2025, step=1))
 plt.plot(x, coef*x + intercept, c="r", label="Line of Best Fit")
 
 plt.legend

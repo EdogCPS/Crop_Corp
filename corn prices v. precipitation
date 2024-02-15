@@ -8,10 +8,26 @@ data1 = pd.read_csv("Crop_Corp/US Corn Futures Historical Data (1).csv")
 data2 =pd.read_csv("Crop_Corp/ChicagoPrecipitationMonthlyData2014-2024.csv")
 
 
-#x_1 =data1(
-#x_2 =
-#y =
+x_1 =data1("Months (starting at january 2014 as 01)")
+x_2 =data1("Monthy Precipitation average")
+x=(x_1,x_2)
+y =data2("price")
 
+fig, graph = plt.subplots(2)
+graph[0].scatter(x_1, y)
+graph[0].set_xlabel("Months since January 2014")
+graph[0].set_ylabel("Corn Future")
+
+graph[1].scatter(x_2, y)
+graph[1].set_xlabel("Percipitation")
+graph[1].set_ylabel("Corn Future")
+
+print("Correlation between Annual Precipitation and Fawn Population:",round(x_1.corr(y),2))
+print("Correlation between Winter Severity and Fawn Population:",round(x_2.corr(y),2))
+
+plt.tight_layout()
+plt.show()
+/*
 xtrain, xtest, ytrain, ytest= train_test_split(x,y, test_size=.2)
 
 model=LinearRegression().fit(xtrain,ytrain)
@@ -37,5 +53,6 @@ for index in range(len(xtest)):
     x_coord=x_coord,2
 
   print("R Squared value:", r_squared)
+*/
 
 

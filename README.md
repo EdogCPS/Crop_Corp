@@ -21,7 +21,7 @@ Regresion Models: (Who is creating it)
     
     Temperature vs.  (Jane)
     
-    Time vs.  
+    Time vs.  (megan)
     
     
     

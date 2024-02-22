@@ -11,7 +11,7 @@ Regresion Models: (Who is creating it)
     
     Temperature vs.  
     
-    Time vs.  
+    Time vs.  (megan)
     
   Corn Price  
   

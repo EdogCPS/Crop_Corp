@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 data = pd.read_csv("TimeVOilVCorn.csv")
 y_1 = data["oil price"]
 y_2 = data["corn price"]
-x = data["time"]
+x = data["Time"]
 # x_data=StandardScaler().fit_transform(x)
 # y_data=StandardScaler().fit_transform(y)
 fig, graph = plt.subplots(2)

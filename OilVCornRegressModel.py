@@ -13,7 +13,7 @@ x = data["Time"]
 fig, graph = plt.subplots(2)
 graph[0].scatter(x, y_1)
 graph[0].set_xlabel("Time")
-graph[0].set_ylabel("oil price")
+graph[0].set_ylabel("oil price ")
 
 graph[1].scatter(x, y_2)
 graph[1].set_xlabel("Time")
